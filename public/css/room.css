@@ -1,0 +1,27 @@
+@media all and (max-width:500px){
+    table{
+        width:100%;
+    }
+    
+    td{
+        display:block;
+        width:100%;
+    }
+
+    tr{
+        display:block;
+        margin-bottom:10px;
+    }
+    tr tr{
+        margin-bottom:0;
+    }
+    
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+      display: block;
+    }
+}

@@ -1,0 +1,23 @@
+.pagination  {
+    /* float: right; */
+    margin: auto;
+    width: 15%;
+    padding: 10px;
+}
+.pagination a {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    background: #f8f9fa!important;
+    color: black!important;
+    border: 1px solid #f8f9fa!important;
+    text-decoration: none;
+} 
+
+.pagination a.active {
+    z-index: 1;
+    background-color: #94949b !important;
+    border-color: #94949b;
+} 
